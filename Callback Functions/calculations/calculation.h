@@ -5,8 +5,8 @@
 #pragma once
 
 
-typedef void (*calculation_result_cb)(float a, float b, float result);
+typedef void (*calculation_result_cb_t)(float a, float b, float result);
 
-int init_calculation(calculation_result_cb result_callback);
+int init_calculation(calculation_result_cb_t result_callback);
 
 int calculate_sum(float a, float b);

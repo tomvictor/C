@@ -5,9 +5,9 @@
 #include "stdio.h"
 #include "calculation.h"
 
-static calculation_result_cb calc_result_cb = NULL;
+static calculation_result_cb_t calc_result_cb = NULL;
 
-int init_calculation(calculation_result_cb result_callback) {
+int init_calculation(calculation_result_cb_t result_callback) {
     calc_result_cb = result_callback;
     return 0;
 }

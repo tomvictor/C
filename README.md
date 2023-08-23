@@ -8,7 +8,7 @@ mkdir build
 cd build
 cmake ..
 make
-´´´
+```
 
 Now run the executable
 
